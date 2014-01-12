@@ -57,7 +57,7 @@ class DonationsController < ApplicationController
     def normalize_params
       params[:amount] = params[:amount].to_i if params[:amount]
       params[:donation] ||= { package: params[:package] || 'tiny', amount: params[:amount] }
-      params[:donation][:stripe_card_token] ||= params[:stripe_card_token]
+      params[:donation][:stripe_card_token] ||= params[:stripeToken]
     end
 
     def cors_set_headers
