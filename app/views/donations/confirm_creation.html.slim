@@ -4,32 +4,24 @@ section class="main container"
             h2 Wow, thank you!
             p
               - if false && subscription?
-                | You have just ordered the subscription <em>"#{donation.package.name}"</em> which means you are donating <em>#{number_to_currency donation.amount_in_dollars}</em> per month to Travis CI (until you cancel the subscription).
+                | You have just ordered the subscription <em>"#{donation.package.name}"</em> which means you are donating <em>#{number_to_currency donation.amount_in_dollars}</em> per month (until you cancel the subscription).
               - else
-                | You have just donated <em>#{number_to_currency donation.amount_in_dollars}</em> to RailsGirls Summer of Code.
+                | You have just donated <em>#{number_to_currency donation.amount_in_dollars}</em>.
 
-            p We can't express how much we appreciate your support.
+            p I can't express how much we appreciate your support.
 
             h3 Thank you so much!
 
             #sociallinks
               h3 Please spread the word!
-              div
-                a.twitter-share-button data-count="vertical" data-text="I have just donated to RailsGirls Summer of Code and so should you!" data-url="http://railsgirlssummerofcode.org/campaign" Tweet
-                div.g-plusone data-size="tall" data-href="http://railsgirlssummerofcode.org/campaign"
-                div.fb-like data-send="false" data-layout="box_count" data-width="50" data-href="http://railsgirlssummerofcode.org/campaign"
-            #fb-root
+              div class="icons"
+                <a class="share facebook" href="http://www.facebook.com/sharer/sharer.php?u=http://fund.lipen.co/" target="_blank" onclick="return windowpop(this.href, 545, 433)" ><img src="images/fb.png" id="icon-facebook"></a>
 
-script
-  | (function(d, s) {
-      var js, fjs = d.getElementsByTagName(s)[0], load = function(url, id) {
-        if (d.getElementById(id)) {return;}
-        js = d.createElement(s); js.src = url; js.id = id;
-        fjs.parentNode.insertBefore(js, fjs);
-      };
-      load('//connect.facebook.net/en_US/all.js#xfbml=1', 'fbjssdk');
-      load('https://apis.google.com/js/plusone.js', 'gplus1js');
-      load('//platform.twitter.com/widgets.js', 'tweetjs');
-    }(document, 'script'));
+                <a class="share twitter" href="https://twitter.com/intent/tweet?text=Check%20out&url=http://fund.lipen.co/&via=lippenka" target="_blank"><img src="images/twitter.png" id="icon-twitter"></a> 
+
+              
+            
+
+
 
 
