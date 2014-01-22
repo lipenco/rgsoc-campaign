@@ -869,3 +869,43 @@
          page-break-after: avoid;
      }
  }
+
+ .timeline {
+    width: 10px;
+    height: 100%;
+    background-color: #ffffff;
+    left: 0;
+    position: fixed;
+   z-index: 100;
+}
+
+
+
+.timeline .color {
+  height: 20%;
+
+}
+
+.timeline .color1 {
+  background-color: #ffffff;
+}
+
+.timeline .color2 {
+  background-color:  #1abc9c;
+}
+
+.timeline .color3 {
+  background-color:  #e74c3c;
+}
+
+
+.timeline .color4 {
+  background-color: #9b59b6;
+}
+
+.timeline .color5 {
+  background-color: #f1c40f;
+}
+
+
+
