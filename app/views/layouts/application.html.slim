@@ -7,6 +7,8 @@ html
     = javascript_include_tag 'https://js.stripe.com/v1', 'application'
     = csrf_meta_tags
     = tag :meta, name: 'stripe-key', content: Rails.configuration.stripe[:public_key]
+    link href="http://fonts.googleapis.com/css?family=Lato:400,300,700" rel="stylesheet" type="text/css"
+    link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css"
 
 
 
@@ -24,24 +26,5 @@ html
     = yield
 
 
-      footer
-  a href="http://lipen.co/"
-    p
-      | Lipen.co - 2014
-  ul
-    li
-      a href="http://www.twitter.com/lippenka" target="_blank"
-        i.icon-twitter
-        span
-          | Twitter
-    li
-      a href="https://github.com/lipenco" target="_blank"
-        i.icon-github
-        span
-          | GitHub
-    li
-      a href="mailto:mag.lipinska@gmail.com"
-        i.icon-mail
-        span
-          | Mail
+
 
