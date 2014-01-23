@@ -1,39 +1,29 @@
-section#m-box--start
-  article
-    = simple_form_for donation do |f|
-      = f.hidden_field :package
-      = f.hidden_field :amount
-      = f.hidden_field :stripe_card_token
-    p
-      strong
-        | You are Awesome!
-    p
-      | You are about to donate 
-      strong
-        | #{format_donation(donation)}.
-      | \.
-    p
-      strong
-        | That is amazing! Thank you so much.
-      | 
-      br/
-      - if donation.errors[:base].any?
-          .application-error
-            - donation.errors[:base].each do |e|
-              = e
 
-
-    article class="content"
+section 
+    article 
       = simple_form_for donation do |f|
         = f.hidden_field :package
         = f.hidden_field :amount
         = f.hidden_field :stripe_card_token
 
+        p You are Awesome!
+
+        p 
+          strong
+          | You are about to donate #{format_donation(donation)}.
+       
+
+        p That is amazing! Thank you so much.
+
+        - if donation.errors[:base].any?
+          .application-error
+            - donation.errors[:base].each do |e|
+              = e
 
         - if company?
           #address
             h3 About you
-            p I'd love to list you on the crowdfunding page. Please provide some info:
+            p We'd love to list you on the crowdfunding page. Please provide some info:
             fieldset
               = f.input :name, required: true
               = f.input :twitter_handle, label: 'Twitter', hint: 'Your Twitter handle', input_html: { placeholder: '@' }
@@ -52,7 +42,7 @@ section#m-box--start
         - else
           #user
             h3 About you
-            p I'd love to list you on the crowdfunding page. Please provide some info:
+            p We'd love to list you on the crowdfunding page. Please provide some info:
             fieldset
               = f.input :name
               = f.input :email
