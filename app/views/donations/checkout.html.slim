@@ -40,14 +40,10 @@ section class="sectionn"
 
         - else
           #user
-            h3 About you
             p We'd love to list you on the crowdfunding page. Please provide some info:
             fieldset
               = f.input :name
               = f.input :email
-              = f.input :twitter_handle, label: 'Twitter', hint: 'Your Twitter handle', input_html: { placeholder: '@' }
-              = f.input :github_handle,  label: 'Github',  hint: 'Your Github handle'
-              = f.input :homepage, input_html: { placeholder: 'http://' }
               = f.input :comment, as: :string
 
       
@@ -55,7 +51,7 @@ section class="sectionn"
        
 
         .actions
-          = f.submit 'Donate now'
+          = f.submit 'DONATE NOW'
           .message
 
      
