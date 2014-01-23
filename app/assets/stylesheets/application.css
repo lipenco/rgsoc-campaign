@@ -561,33 +561,14 @@
  /* ============
      WIDE: Menu
     ============ */
-    .logo {
-       background-image: url(../img/sprites/logo_start.png);
-       background-position: 0px 0px;
-        margin: 1em 0em 3em;
-        width: 675px;
-        height: 165px;
-    }
 
-    .slide1 {
-        background-image: url(../img/workshop2.jpg);
-    }
-    .slide3 {
-        background-image: url(../img/workshop1.jpg);
-    }
+
      .title {
          float: left;
          margin-top: 57px;
      }
 
-     .summer_of_code {
-       float: right;
-       margin-right: 52px;
-     }
-
-     .summer_of_code img {
-       width: 100%;
-     }
+    
 
  /* ============
      WIDE: Main
@@ -909,27 +890,20 @@
 
 body {font-size: .85em;}
 
-section { width: 100%; z-index: 7; }
-#skrollr-body, #m-box--flatiron-elements,  #m-box--railsgirls-elements,
-#m-box--scholarhip-elements {position: fixed; width: 100%; left: 50%; margin-left: -500px;  top: 0; height: 1000px; overflow: hidden;}
-#image-me {
-position: fixed;
-top:0;
-right:-5%;
-height: 100%;
-}
+.sectionn  { width: 100%; z-index: 7; }
 
 
 
-article {max-width: 1000px; margin: 0 auto; height: 1000px;  }
 
-article p {position: relative; z-index: 20}
-article {font-family: 'Lato', sans-serif; -webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
+.arrticle {max-width: 1000px; margin: 0 auto; height: 1000px;  }
+
+.arrticle p {position: relative; z-index: 20}
+.arrticle {font-family: 'Lato', sans-serif; -webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
 .list-intro{font-family: 'Lato', sans-serif; font-size: .9em;}
 strong {font-weight: 700;}
 
 
-article p:first-child {
+.arrticle p:first-child {
   border-left: 3px solid #e74c3c;
   padding-top: 240px;
   font-size: 2.7em;
@@ -941,6 +915,38 @@ article p:first-child {
   color: #e74c3c;
 }
 
+.arrticle {
+max-width: 1000px;
+margin: 0 auto;
+height: 1000px;
+}
+
+
+
+.arrticle p {
+color: #8a8a8a;
+padding: 0 1em 1.5em 1em;
+font-size: 1.3em;
+font-weight: 300;
+line-height: 1.6em;
+width: 355px;
+}
+
+.arrticle p {
+display: block;
+-webkit-margin-before: 1em;
+-webkit-margin-after: 1em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+}
+
+.arrticle p:first-child {
+color: #8a8a8a;
+border-left: 0 none;
+font-size: 3.5em;
+margin-bottom: .2em;
+padding-left: .3em;
+}
 
 footer {background: #f1c40f;  position: relative; z-index: 8; color: white;font-family: 'Lato'; font-weight: 300; text-align: center; padding: 2.5em 0 2.5em; overflow: hidden}
 footer ul, nav ul, .opt-nav-mobile {text-align: center; margin: 1em 0 0;}
