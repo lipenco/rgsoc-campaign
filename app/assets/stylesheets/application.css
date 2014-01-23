@@ -924,13 +924,13 @@ height: 100%;
 article {max-width: 1000px; margin: 0 auto; height: 1000px;  }
 
 article p {position: relative; z-index: 20}
-article, .tips {font-family: 'Lato', sans-serif; -webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
+article {font-family: 'Lato', sans-serif; -webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
 .list-intro{font-family: 'Lato', sans-serif; font-size: .9em;}
 strong {font-weight: 700;}
 
 
 article p:first-child {
-  border-left: 3px solid white;
+  border-left: 3px solid #e74c3c;
   padding-top: 240px;
   font-size: 2.7em;
   line-height: 1.3em;
@@ -938,7 +938,7 @@ article p:first-child {
   padding: 180px 0 .5em .6em;
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
-  color: white;
+  color: #e74c3c;
 }
 
 
