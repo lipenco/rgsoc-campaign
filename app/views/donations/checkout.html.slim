@@ -6,9 +6,11 @@ section class="sectionn"
         = f.hidden_field :amount
         = f.hidden_field :stripe_card_token
 
-        p Thank you!
+        p class="firstp" Thank you!
 
-        p You are about to donate #{format_donation(donation)}.
+        p 
+          strong
+          | You are about to donate #{format_donation(donation)}.
 
         p That is amazing! Thank you so much.
 
@@ -19,7 +21,7 @@ section class="sectionn"
 
         - if company?
           #address
-            h3 About you
+            p About you
             p We'd love to list you on the crowdfunding page. Please provide some info:
             fieldset
               = f.input :name, required: true
