@@ -1,21 +1,27 @@
-section class="main container"
-  div class="wrapper clearfix"
-    article class="content"
-      = simple_form_for donation do |f|
-        = f.hidden_field :package
-        = f.hidden_field :amount
-        = f.hidden_field :stripe_card_token
-
-        h2 You are Awesome!
-
-        p You are about to donate #{format_donation(donation)}.
-
-        p That is amazing! Thank you so much.
-
-        - if donation.errors[:base].any?
+section#m-box--start
+  article
+    = simple_form_for donation do |f|
+      = f.hidden_field :package
+      = f.hidden_field :amount
+      = f.hidden_field :stripe_card_token
+    p
+      strong
+        | You are Awesome!
+    p
+      | You are about to donate 
+      strong
+        | #{format_donation(donation)}.
+      | \.
+    p
+      strong
+        | That is amazing! Thank you so much.
+      | 
+      br/
+      - if donation.errors[:base].any?
           .application-error
             - donation.errors[:base].each do |e|
               = e
+
 
         - if company?
           #address

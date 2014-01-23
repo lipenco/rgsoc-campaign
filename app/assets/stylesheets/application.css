@@ -907,5 +907,49 @@
   background-color: #f1c40f;
 }
 
+body {font-size: .85em;}
+
+section { width: 100%; z-index: 7; }
+#skrollr-body, #m-box--flatiron-elements,  #m-box--railsgirls-elements,
+#m-box--scholarhip-elements {position: fixed; width: 100%; left: 50%; margin-left: -500px;  top: 0; height: 1000px; overflow: hidden;}
+#image-me {
+position: fixed;
+top:0;
+right:-5%;
+height: 100%;
+}
+
+
+
+article {max-width: 1000px; margin: 0 auto; height: 1000px;  }
+
+article p {position: relative; z-index: 20}
+article, .tips {font-family: 'Lato', sans-serif; -webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
+.list-intro{font-family: 'Lato', sans-serif; font-size: .9em;}
+strong {font-weight: 700;}
+
+
+article p:first-child {
+  border-left: 3px solid white;
+  padding-top: 240px;
+  font-size: 2.7em;
+  line-height: 1.3em;
+  margin: 0 0 1em;
+  padding: 180px 0 .5em .6em;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  color: white;
+}
+
+
+footer {background: #f1c40f;  position: relative; z-index: 8; color: white;font-family: 'Lato'; font-weight: 300; text-align: center; padding: 2.5em 0 2.5em; overflow: hidden}
+footer ul, nav ul, .opt-nav-mobile {text-align: center; margin: 1em 0 0;}
+footer li, nav li, .opt-nav li, .opt-nav-mobile li {display: inline-block; margin: 0 .5em; font-size: 1.1em; line-height: 1}
+footer a {color: white;}
+footer span, .opt-nav span, .opt-nav-mobile span {display: block; text-indent: -999em}
+
+
+
+
 
 
