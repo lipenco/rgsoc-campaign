@@ -12,7 +12,11 @@ section class="sectionn"
           strong
           | You are about to donate #{format_donation(donation)}.
 
-        p That is amazing! Thank you so much.
+        p I can't express how much I appreciate your support.
+
+        p 
+          strong
+           | Thank you so much!
 
         - if donation.errors[:base].any?
           .application-error
@@ -40,6 +44,8 @@ section class="sectionn"
 
         - else
           #user
+            br/
+
             p We'd love to list you on the crowdfunding page. Please provide some info:
             fieldset
               = f.input :name
@@ -51,7 +57,7 @@ section class="sectionn"
        
 
         .actions
-          = f.submit 'DONATE NOW'
+          = f.submit 'CONFIRM DONATION'
           .message
 
      
