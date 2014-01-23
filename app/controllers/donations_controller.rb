@@ -18,8 +18,8 @@ class DonationsController < ApplicationController
     if donation.valid?
       donation.save_with_payment!
       # send_confirmation
-      render :checkout
-      # redirect_to confirm_donation_url(donation)
+      # render :checkout
+      redirect_to confirm_donation_url(donation)
     else
       render :checkout
     end

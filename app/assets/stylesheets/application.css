@@ -214,10 +214,10 @@
   border-radius: 5px;
   -webkit-transition: background .3s;
   transition: background .3s;
-background: #e64c65;
-font-family: 'Lato';
-color: white;
-font-weight: 100;
+  background: #e64c65;
+  font-family: 'Lato', 'Montserrat';
+  color: white;
+  font-weight: 100;
 }
 
 .simple_form input[type="submit"]:hover {
@@ -990,6 +990,17 @@ footer span {display: block; text-indent: -999em}
             background: #4fc4f6;            
           }
 
+  .block {
+margin-bottom: 5px;
+background: #394264;
+border-radius: 5px;
+}
+
+
+.horizontal-list li {
+float: left;
+display: inline-block;
+}
 
 
 
