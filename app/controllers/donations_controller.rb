@@ -47,7 +47,7 @@ class DonationsController < ApplicationController
     end
 
     def company?
-      params[:package] != 'Custom'
+      false
     end
 
     def needs_vat?
