@@ -30,10 +30,11 @@
      
   /* fix buttons height, for twitter bootstrap */
   line-height: 1em;
+  color: white;
  
   /* Animation center compensation - margins should be symmetric */
   /* remove if not needed */
-  margin-left: 0;
+  margin-left: 1em;
  
   /* you can be more comfortable with increased icons size */
   /* font-size: 120%; */

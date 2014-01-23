@@ -991,9 +991,10 @@ footer span {display: block; text-indent: -999em}
           }
 
   .block {
-margin-bottom: 5px;
+margin-bottom: 25px;
 background: #394264;
 border-radius: 5px;
+width: 86px;
 }
 
 
