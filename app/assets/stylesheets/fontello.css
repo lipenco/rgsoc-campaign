@@ -35,6 +35,7 @@
   /* Animation center compensation - margins should be symmetric */
   /* remove if not needed */
   margin-left: 1em;
+  margin-top: 0.6em;
  
   /* you can be more comfortable with increased icons size */
   /* font-size: 120%; */
