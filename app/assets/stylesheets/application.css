@@ -952,7 +952,7 @@ footer {background: #f1c40f;  position: relative; z-index: 8; color: white;font-
 footer ul, nav ul, .opt-nav-mobile {text-align: center; margin: 1em 0 0;}
 footer li, nav li, .opt-nav li, .opt-nav-mobile li {display: inline-block; margin: 0 .5em; font-size: 1.1em; line-height: 1}
 footer a {color: white;}
-footer span, .opt-nav span, .opt-nav-mobile span {display: block; text-indent: -999em}
+footer span {display: block; text-indent: -999em}
 
 
 
