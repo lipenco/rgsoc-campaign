@@ -470,7 +470,7 @@
     width: 200px; 
     position: absolute; 
     top: 500px; 
-    left: 30px; 
+    left: 30%; 
     z-index: 1000;
   }
 
@@ -908,7 +908,7 @@ body {font-size: .85em;}
 
 
 
-.arrticle { margin: 0 auto;  }
+.arrticle { margin: 0 auto;  min-height: 100%; }
 
 .arrticle p {position: relative; z-index: 20}
 .arrticle {font-family: 'Lato', sans-serif; -webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
@@ -1033,7 +1033,7 @@ display: inline-block;
   position: fixed;
   top:0;
   left: 0;
-  z-index: 0;
+  z-index: 99;
 
 }
 
