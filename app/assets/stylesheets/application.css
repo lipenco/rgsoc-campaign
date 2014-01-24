@@ -470,8 +470,13 @@
     width: 200px; 
     position: absolute; 
     top: 500px; 
-    left: 10%; 
+    left: 15%; 
     z-index: 1000;
+  }
+
+  .back {
+    font-family: 'lato';
+    font-size: 1em;
   }
 
   .fb-like {margin-left: 2em;}
