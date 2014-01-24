@@ -912,6 +912,7 @@ strong {font-weight: 700;}
 .arrticle {
 max-width: 600px;
 margin-left: 15%;
+z-index: -1;
 }
 
 
@@ -981,6 +982,7 @@ footer span {display: block; text-indent: -999em}
          
           .social .facebook {
             background: #3468af;
+            z-index: 99999;
          /*   border-top-left-radius: 5px;
             border-bottom-left-radius: 5px;*/
           }
@@ -988,27 +990,27 @@ footer span {display: block; text-indent: -999em}
           
           
            .social .twitter2 {
-            background: #4fc4f6;            
+            background: #4fc4f6;  
+            z-index: 99999;          
+          }
+          a {
+            z-index: 99999;
           }
 
-  .block {
-margin-bottom: 25px;
-background: #394264;
-border-radius: 5px;
-width: 86px;
-}
+
 
 
 .horizontal-list li {
 float: left;
 display: inline-block;
+z-index: 99999;
 }
 
 #canvas {
   position: fixed;
   top:0;
   left: 0;
-  z-index: 12;
+  z-index: 92;
 
 }
 
