@@ -464,7 +464,7 @@
      Donations
      ========================================================================== */
 
-  #sociallinks iframe { margin-right: 2em;}
+  #sociallinks  { margin-right: 2em; z-index: 99999999;}
   .fb-like {margin-left: 2em;}
 
   .simple_form input[type=text], .simple_form input[type=email], .simple_form textarea {
