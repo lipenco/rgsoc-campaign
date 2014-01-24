@@ -962,6 +962,7 @@ footer span {display: block; text-indent: -999em}
 
 .social {
         height: 43px;
+        z-index: 99999;
       }
        .social li {
           width: 43px;
@@ -1007,7 +1008,7 @@ display: inline-block;
   position: fixed;
   top:0;
   left: 0;
-  z-index: 99999;
+  z-index: 12;
 
 }
 
