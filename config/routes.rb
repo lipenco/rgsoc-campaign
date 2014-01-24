@@ -2,7 +2,7 @@ require 'geo_ip'
 
 Rgsoc::Application.routes.draw do
   resources :donations do
-    get 'checkout', on: :collection
+    post 'checkout', on: :collection
     get 'confirm', on: :member
   end
 
