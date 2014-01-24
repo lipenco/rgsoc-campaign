@@ -950,14 +950,27 @@ footer {
  font-weight: 300; 
  text-align: center; 
  padding: 0 ; 
+
  }
+
+footer .lipenco {
+  font-family: 'Lato';
+  text-decoration: none;
+  color: white;
+  font-weight: 100;
+  font-size: 15px;
+  line-height: 20px;
+  margin-top: 25px;
+}
 
 footer ul {text-align: center; padding: 0;}
 footer li {
   display: inline-block; 
-  font-size: 1.1em; 
+  font-size: 1em; 
+  padding: 0;
   margin-right: 0.6em;
-  line-height: 1}
+  margin-bottom: 0;
+ }
 footer a {color: white; text-decoration: none;}
 footer span {display: block; text-indent: -999em}
 
