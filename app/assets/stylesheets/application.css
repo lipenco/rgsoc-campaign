@@ -950,6 +950,7 @@ footer {
  font-weight: 300; 
  text-align: center; 
  padding: 0 ; 
+ bottom: 0;
 
  }
 
@@ -1023,7 +1024,7 @@ z-index: 99999;
   position: fixed;
   top:0;
   left: 0;
-  z-index: 92;
+  z-index: 10;
 
 }
 
