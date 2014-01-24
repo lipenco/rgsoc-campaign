@@ -470,7 +470,7 @@
     width: 200px; 
     position: absolute; 
     top: 500px; 
-    left: 30%; 
+    left: 20%; 
     z-index: 1000;
   }
 
@@ -950,7 +950,7 @@ p.firstp  {
 
 footer {
   background: #f1c40f; 
- position: absolute; 
+ position: relative; 
  width: 100%;
  height: 20%;
  z-index: 8; 
@@ -959,7 +959,6 @@ footer {
  font-weight: 300; 
  text-align: center; 
  padding: 0 ; 
- bottom: 0;
 
  }
 
